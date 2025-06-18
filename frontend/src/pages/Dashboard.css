@@ -1,0 +1,200 @@
+.dashboard-wrapper {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  color: #c9d1d9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161b22;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.role-switch {
+  background: #30363d;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-card {
+  background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+  padding: 2rem;
+  border-radius: 18px;
+  color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.hero-card h1 {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.metric-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  border-radius: 12px;
+  flex: 1;
+  text-align: center;
+  margin: 0 0.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.metric-box h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.main-grid {
+  display: flex;
+  gap: 2rem;
+}
+
+.medication-panel,
+.calendar-panel {
+  background: #161b22;
+  padding: 1.5rem;
+  border-radius: 14px;
+  flex: 1;
+}
+
+.med-box {
+  background: #0d1117;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #30363d;
+}
+
+.photo-upload {
+  margin: 1rem 0;
+  text-align: center;
+  border: 1px dashed #444c56;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.photo-upload button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #30363d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mark-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background: #238636;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.calendar-box {
+  background: #0d1117;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #999;
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.dot.taken {
+  background: #2ea043;
+}
+.dot.missed {
+  background: #e63946;
+}
+.dot.today {
+  background: #58a6ff;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.calendar-cell {
+  padding: 10px;
+  text-align: center;
+  background: #0d1117;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.calendar-cell.taken {
+  background-color: #2ea043;
+}
+
+.calendar-cell.missed {
+  background-color: #e63946;
+}
+
+.calendar-cell.today {
+  border: 2px solid #58a6ff;
+}
+
+.calendar-cell.future {
+  background-color: #20262e;
+  opacity: 0.5;
+}
+
+.file-input {
+  background: #30363d;
+  padding: 0.6rem;
+  border-radius: 6px;
+  color: white;
+  width: 100%;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
