@@ -101,17 +101,11 @@ npm run dev       # Starts React frontend on port 5173
 
 ---
 
-## 📸 UI Screenshots
-
-_(Add image previews here if submitting or pushing to GitHub)_
-
----
-
 ## 👨‍💻 Author
 
 **Dinesh Stark**  
 MERN Stack Dev | Ethical Hacker | Learning ML  
-LinkedIn: [linkedin.com/in/dinesh-stark](https://linkedin.com/in/dinesh-stark)
+LinkedIn: [linkedin.com/in/dinesh-stark](https://linkedin.com/in/nunnadineshkumar)
 
 ---
 
